@@ -12,7 +12,6 @@
   },
   "functions": {
     "etl.py": {
-      "runtime": "@vercel/python",
       "maxDuration": 300
     }
   }
