@@ -1,18 +1,16 @@
 {
   "version": 2,
-  "routes": [
-    {
-      "src": "/api/etl",
-      "dest": "etl.py"
+  "functions": {
+    "api/etl.py": {
+      "runtime": "python3.9"
     }
+  },
+  "routes": [
+    { "src": "/api/etl",
+      "dest": "api/etl.py" }
   ],
   "env": {
     "SUPABASE_URL": "SUPABASE_URL",
     "SUPABASE_KEY": "SUPABASE_KEY"
-  },
-  "functions": {
-    "etl.py": {
-      "maxDuration": 300
-    }
   }
 }
