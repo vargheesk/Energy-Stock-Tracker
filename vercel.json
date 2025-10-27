@@ -1,15 +1,9 @@
 {
   "version": 2,
-  "builds": [
-    {
-      "src": "etl.py",
-      "use": "@vercel/python"
-    }
-  ],
   "routes": [
     {
-      "src": "/etl",
-      "dest": "etl.py"
+      "src": "/api/etl",
+      "dest": "/etl.py"
     }
   ],
   "env": {
@@ -18,6 +12,7 @@
   },
   "functions": {
     "etl.py": {
+      "runtime": "@vercel/python",
       "maxDuration": 300
     }
   }
