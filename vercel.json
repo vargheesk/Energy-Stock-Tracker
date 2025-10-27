@@ -3,16 +3,16 @@
   "routes": [
     {
       "src": "/api/etl",
-      "dest": "/etl.py"
+      "dest": "etl.py"
     }
   ],
   "env": {
-    "SUPABASE_URL": "SUPABASE_URL",
-    "SUPABASE_KEY": "SUPABASE_KEY"
+    "SUPABASE_URL": "@SUPABASE_URL",
+    "SUPABASE_KEY": "@SUPABASE_KEY"
   },
   "functions": {
     "etl.py": {
-      "runtime": "python3.9",
+      "runtime": "@vercel/python",
       "maxDuration": 300
     }
   }

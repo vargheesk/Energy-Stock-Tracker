@@ -11,9 +11,6 @@ numpy
 # Database
 supabase
 
-# Dashboard
-streamlit
-plotly
 
 # Environment variables
 python-dotenv
