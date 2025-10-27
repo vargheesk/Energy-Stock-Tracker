@@ -1,0 +1,30 @@
+# Energy Stock Tracker - Git Ignore File
+
+# Streamlit
+Streamlit_Dashboard/secrets.toml
+.env
+
+# Python
+__pycache__/    
+*.py[cod]       
+*$py.class      
+*.so            
+*.egg-info/     
+build/          
+dist/
+
+
+
+# IDEs
+.vscode/
+*.swo
+*~
+
+# OS junk files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+

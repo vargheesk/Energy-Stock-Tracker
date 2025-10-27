@@ -1,0 +1,25 @@
+# Energy Stock Tracker - Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# Data extraction
+yfinance
+
+# Data processing
+pandas
+numpy
+
+# Database
+supabase
+
+# Dashboard
+streamlit
+plotly
+
+# Environment variables
+python-dotenv
+
+
+#etl deploy
+flask
+
+
